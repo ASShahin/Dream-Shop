@@ -1,4 +1,140 @@
 *{
     margin: 0px 0px;
     padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    width: 100%;
+    /* background: rgb(199, 199, 199); */
+}
+
+.top-bar{
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.search-box{
+    padding: 5px 10px;
+    border: 1px solid black;
+    background: white;
+}
+
+.search-box span{
+    margin-left: 10px;
+}
+
+.search-box input{
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.logo picture img{
+    width: 100%;
+}
+
+.curt-currency{
+    /* padding: 5px 10px; */
+}
+
+.drop-down{
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+}
+
+.dropdown-btn {
+    /* padding: 5px 20px; */
+    width: 120px;
+    background: black;
+    border: none;
+    border-radius: 0px;
+    color: white;
+}
+
+.dropdown-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.dropdown-content{
+    position: absolute;
+    display: none;
+    /* display: block; */
+    margin-top: 40px;
+    z-index: 1;
+}
+
+.dropdown-content ul{
+    list-style: none;
+}
+
+.dropdown-content ul li a{
+    text-decoration: none;
+    width: 120px;
+    display: block;
+    background: black;
+    color: white;
+    padding: 10px 27px;
+}
+
+.dropdown-content ul li a:hover{
+    /* background: grey; */
+    color: rgb(21, 173, 59);
+}
+
+.drop-down:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-btn button:hover .dropdown-content ul{
+    display: block;
+}
+
+.cart{
+    margin: auto 30px;
+}
+
+.cart a{
+    text-decoration: none;
+    color: black;
+}
+
+.cart a div span i{
+    font-size: 50px;
+    padding: 0 10px;
+}
+
+.cart-count{
+    background: rgb(21, 173, 59);
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.cart-count p{
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 17px auto;
+}
+
+.border{
+    border: 2px solid green;
+}
+
+.container{
+    width: 965px;
+}
+
+.flex{
+    display: flex;
 }
